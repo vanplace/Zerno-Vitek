@@ -1,0 +1,197 @@
+
+            /* Global */
+
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik+Mono+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+           
+            body {
+                width: 1280px;
+                margin: 0 auto;
+                padding: 0;
+                font-family: "PT Sans", Arial, sans-serif;
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 400;
+                color: black;
+                background-color: rgb(236,239,241);
+            }
+            .page a {
+                text-decoration:none;
+            }
+            
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            li {
+                list-style-type: none;
+            }
+
+            .page {
+                height: 100%;
+            }
+
+            .page-body {
+                min-height: 100%;
+                display: grid;
+                grid-template-rows: min-content 1fr min-content;
+                align-content: start;
+            }
+
+            /* header*/
+            .header {
+                width:1280px;
+                height: 540px;
+                margin: 0 auto;
+                background-image: url("../image/place2.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative; 
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            .header__title {
+                display: flex;
+                flex-direction: column;
+            }
+            .header__title--first {
+                font-size: 72px;
+                color: rgb(93,64,55);
+                font-weight: bold;
+                margin-top: 40px;
+                margin-left: 20px;
+                font-family: Montserrat;
+            }
+            .header__title--second {            
+                font-weight: bold;
+                margin-top: 25px;
+                margin-left: 20px;
+                font-size: 28px;
+                width: 570px;
+                line-height: 1.2;
+                font-family: Poiret One;
+            }
+
+            .header__contact{
+                height: 78px;
+                width: 284px;
+                margin-top: 30px;
+                background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9));
+                font-weight: bold;
+                font-size: 18px;
+                font-family: Montserrat;
+                color: rgb(78,52,46);
+                line-height: 0.1;
+                text-align: right;
+            }
+
+            .header__contact--contacts-phone {
+               color: rgb(78,52,46);
+               margin-top: 0;
+            }
+
+            .header__contact--contact-email {
+                color: rgb(78,52,46);
+            }
+
+            .header__contact--logo {
+                z-index: 1;
+                position: absolute;
+                margin-left: 113px;      
+                opacity: 0.7;
+                height: 140px;
+                width: 140px;
+            }
+
+            .container{
+                margin: 0 auto;
+                width: 1280px;
+            }
+
+            .description__text {
+                text-align: center;
+                font-size: 22px;
+                font-family: 'Comfortaa', cursive;
+                font-weight: bold;
+                color: rgb(78,52,46);
+                line-height: 1.2; 
+                margin: 0 auto;
+                margin-top: 27px;
+                margin-left: 58px;
+                width: 1200px;
+                color: rgb(55,71,79);
+                height:  100px;
+            }
+
+            .products{
+                margin-top: 55px;
+                height: 47px; 
+                font-family: 'Rubik Mono One', sans-serif;
+                font-size: 24px;
+                text-align: center;
+                color:rgb(93,64,55);
+                border-top: 4px solid rgb(93,64,55);
+                border-bottom: 4px solid rgb(93,64,55);
+            }
+            .products p {
+                margin-top: 15px;
+            }
+
+            .product__list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+                margin-top: 41px;
+                padding-left: 30px;
+            }
+            
+            .product__list--item {
+                width: 226px;
+                margin-right: 22px;
+            }
+
+            .product__list--pic{
+                height: 208px;
+                width: 256px;
+            }
+
+            .product__list--item p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                color: rgb(93,64,55);
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .atention {
+                color: rgb(55,71,79);
+                font-family: 'Rubik Mono One', sans-serif;
+                font-size: 26px;
+                text-align: center;
+                margin-top: 59px;
+                margin-left: 5px;
+            }
+            .atention p:last-child {
+                line-height: 1.2; 
+                width: 1200px;
+                padding-left: 43px;
+            }
+
+            .footer {
+                margin: 0 auto;
+                width: 1280px;
+                background-color: rgb(109,76,65);
+                margin-top: 65px;
+                color: rgb(236,239,241);
+                text-align: center;
+                font-size: 26px;
+                font-family: 'Comfortaa', cursive;
+                font-weight: bold;
+            }
+            .footer a {
+                color:rgb(236,239,241);
+            }
